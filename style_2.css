@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    background-image: url("aviso.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+div#textos{
+    background-color: rgba(0, 0, 0, 0.781);
+    display: inline-block;
+    padding: 30px 40px;
+    color: white;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h2{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
